@@ -4,12 +4,13 @@ package de.demmer.dennis;
 public class Application {
 	
 	public static void main(String[] args) {
+	
+		
+		UserManager userManager = new UserManager();
+		userManager.signUp("12345", "Dennis");
+		
 
-		
-		User user1 = new User("Dennis", "12345");
-		User user2 = new User("Nils", "password");
-		
-		int[] iArr = new int[150];
+		System.out.println(userManager.login("Dennis", "123457777"));
 
 		
 	}
