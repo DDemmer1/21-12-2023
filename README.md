@@ -20,7 +20,7 @@ Aufgabe 2:
   Aufgabe 3:
    - schreibt eine Methode ```public User login(String name, String pw)``` in eure Klasse ```UserManager```
    - die Methode soll über das ```User[] allUsers``` Array iterieren
-   - dabei soll überprüft werden ob ein Objekt die gleichen werte in  ````String name``` und  ``` String pw``` hat wie die Parameter
+   - dabei soll überprüft werden ob ein Objekt die gleichen werte in  ```String name``` und  ``` String pw``` hat wie die Parameter
       - falls ja soll dieses Objekt über ein ```return``` zurückgegeben werden
 
 
