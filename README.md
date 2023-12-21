@@ -16,7 +16,12 @@ Aufgabe 2:
  - initialisiert das Array ```User[] allUsers``` im Konstruktor mit 150 Plätzen
  - schreibt eine Methode ```void singUp(String name, String pw, int index)```
     - Die Methode soll ein neues ```User``` Objekt erstellen und es in das Array am angegebenen index speichern
-
+  
+  Aufgabe 3:
+   - schreibt eine Methode ```public User login(String name, String pw)``` in eure Klasse ```UserManager```
+   - die Methode soll über das ```User[] allUsers``` Array iterieren
+   - dabei soll überprüft werden ob ein Objekt die gleichen werte in  ````String name``` und  ``` String pw``` hat wie die Parameter
+      - falls ja soll dieses Objekt über ein ```return``` zurückgegeben werden
 
 
   ### ℹ️ Resourcen:
